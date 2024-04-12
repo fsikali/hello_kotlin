@@ -32,7 +32,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $name!",
+        text = "My is  $name!",
         modifier = modifier
     )
 }
@@ -41,6 +41,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     First_kotlin_appTheme {
-        Greeting("Android")
+        Greeting("Flemming")
     }
 }
