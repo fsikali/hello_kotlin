@@ -12,6 +12,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.first_kotlin_app.ui.theme.First_kotlin_appTheme
+import androidx.compose.ui.unit.dp
+import androidx.compose.foundation.layout.padding
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -35,7 +37,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     Surface(color = Color.Cyan) {
         Text(
             text = "My is  $name!",
-            modifier = modifier
+            modifier = modifier.padding(24.dp)
         )
     }
 }
